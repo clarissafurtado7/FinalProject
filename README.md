@@ -1,6 +1,6 @@
 # FinalProject
 ## Blackout Poetry
-[Website] https://clarissafurtado7.github.io/FinalProject/index.html
+[Website](https://clarissafurtado7.github.io/FinalProject/index.html)
 ## Project Statement
 My final project was based on blackout poetry. I wanted to emulate the process of writing, and used blackout poetry as simulation of the idea of editing. My project utilizes a JavaScript library in order to write and delete various words and phrases. Rather than taking an existing text and blacking out words I didn't want in the final version, I deleted them from the page, so that all that is left is the words that are meant to be in the final work. The ideas I focused on were heavily based on the idea of childhood friendship, so all the illustrations are meant to evoke childhood drawings. 
 
