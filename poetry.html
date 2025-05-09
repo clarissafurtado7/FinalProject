@@ -1,0 +1,420 @@
+<html>
+<title>blackout poetry</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!--<button id="click" onclick="poem()">Click me</button>--->
+<button class="home"><a href="index.html">can i go back?</a></button>
+<br>
+<br>
+<br>
+<div id="outer">
+<div id = "demo">
+<body onload="poem()" id="outer1"></body>    
+
+</div>
+</div>
+<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+<script>
+    var txt = document.getElementById("poem").innerText;
+    function poem (){
+    //var x = document.getElementsByClassName("home");
+    //x.style.visbility = "hidden";
+    //document.getElementById("click").disabled = true;
+    const instance = new TypeIt("#demo", {
+     speed: 40,
+     waitUntilVisible: true,
+    })
+    /*fear that you can't shift the type
+That sticks around like summat in your teeth?
+*/
+      instance
+        .type(" Have <span class='out'> you got colour in your cheeks?<br>Do</span> ")
+        .move(".out", { to: "END" })
+        .delete(".out", { delay: 300 })
+        .move(null, { to: "END" })
+        .type("you ever <span class='out'>get that </span> fear")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(null, { to: "END" })
+        .type("<span class='out'> that you can't shift the typ</span>e")
+        //.break()
+        //.type("The deal was you fix ")
+        /*.move(-4, { delay: 300 })
+        .delete(17)
+        .delete(23)*/
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(null, { to: "END" })
+        .pause(900)
+        .break()
+        //.move(null, { to: "END" })
+        .type("<span class='out'>That sticks aroun</span>d")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .delete(1)
+        .move(null, { to: "END" })
+        .type("<span class='out'> like summat in your teeth?</span> ", { delay: 350})
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(null, { to: "END" })
+        .break()
+        .type("<span class='out'>Are </span>the")
+        .type("<span class='out1'>re some aces up your sleeve?</span>")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(null, { to: "END" }, { delay: 350})
+        .move(".out1", { to: "END" })
+        .delete(".out1")
+        .move(null, { to: "END" }, { delay: 1000})
+        .break()
+        .move(null, { to: "END" }, { delay: 350})
+        .type("<span class='out'>Have you no</span> idea that")
+        .type("<span class='out1'> you're in deep?</span>")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .delete(1)
+        .move(".out1", { to: "END" })
+        .delete(".out1")
+        .move(null, { to: "END" }, { delay: 1000})
+        .break()
+        .type("I<span class='out'>'ve </span>")
+        .type(" dream<span class='out1'>t</span> about you")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(".out1", { to: "END" })
+        .delete(".out1")
+        .move(null, { to: "END" }, { delay: 1000})
+        .type("<span class='out'> nearly every night this week you're in deep?</span>")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .break()
+        .move(null, { to: "END" }, { delay: 1000})
+        .type("<span class='out'>How m</span>a")
+        .type("<span class='out1'>ny</span> secret")
+        .type("<span class='out2'>s can you keep?</span> ")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(".out1", { to: "END" })
+        .delete(".out1")
+        .move(".out2", { to: "END" })
+        .delete(".out2")
+        .break()
+        .move(null, { to: "END" }, { delay: 1000})
+        .type("<span class='out'>'Cause there's th</span>i")
+        .type("<span class='out1'>s tune I</span> found")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(".out1", { to: "END" })
+        .delete(".out1")
+        .move(null, { to: "END" }, { delay: 350})
+        .type(" <span class='out'>That makes me think of </span>")
+        .type("you <span class='out1'>somehow an' I play it on repeat</span>")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(".out1", { to: "END" })
+        .delete(".out1")
+        .pause(2000)
+        .break()
+        .move(null, { to: "END" }, { delay: 350})
+        .type("<span class='out'>Until I fall </span>")
+        .type("asleep<span class='out1'>, spillin' drinks on my settee</span> ")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(".out1", { to: "END" })
+        .delete(".out1")
+        .break()
+        .move(null, { to: "END" }, { delay: 350})
+        .type("<span class='out'>(Do I wanna know?) </span>")
+        .type("I<span class='out1'>f this feelin' flows both ways? </span> ")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(".out1", { to: "END" })
+        .delete(".out1")
+        .move(null, { to: "END" }, { delay: 350})
+        .break()
+        .type("<span class='out'>(Sad to see you go)</span> Was")
+        .type("<span class='out1'> sorta </span> hopin'")
+        .type("<span class='out2'> that </span> you'd")
+        .type(" s<span class='out3'>t</span>ay ")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .delete(1)
+        .move(".out1", { to: "END" })
+        .delete(".out1")
+        .move(".out2", { to: "END" })
+        .delete(".out2")
+        .move(".out3", { to: "END" })
+        .delete(".out3")
+        .move(null, { to: "END" }, { delay: 350})
+        .break()
+        .type("<span class='out'>(Baby</span>")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .type("we <span class='out'>both know) That the nights </span>were ")
+        .type("<span class='out1'>mainly</span> made")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(".out1", { to: "END" })
+        .delete(".out1")
+        .move(null, { to: "END" }, { delay: 350})
+        .type(" For <span class='out'>sayin' th</span>i")
+        .type("<span class='out1'>ngs </span>t")
+        .type("<span class='out2'>hat you can't say tomorrow day</span>")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(".out1", { to: "END" })
+        .delete(".out1")
+        .move(".out2", { to: "END" })
+        .delete(".out2")
+        .move(null, { to: "END" }, { delay: 350})
+        .break()
+        .type("Crawl<span class='out'>i</span>n' back to you")
+        .delete(".out")
+        .move(".out", { to: "START" })
+        .delete(5)
+        .type("Ever<span class='out1'> thought </span>of callin' when")
+        .type("<span class='out2'>You'</span>ve ha<span class='out3'>d </span>a few?")
+        .move(".out3", { to: "START" })
+        .delete(".out3")
+        .move(".out2", { to: "START" })
+        .delete(".out2")
+        .move(".out1", { to: "START" })
+        .delete(".out1")
+        .go();/*
+        
+        /*
+        .move(null, { to: "END" }, { delay: 350})
+        .break()
+        .type("'Cause I <span class='out1'>always </span>do")
+        .break()
+        .type("Maybe I'm too")
+        .break()
+        .type("<span class='out2'>You'</span>ve ha<span class='out3'>d </span>a few?")
+        .move(".out3", { to: "END" })
+        .delete(".out3")
+        .move(".out2", { to: "END" })
+        .delete(".out2")
+        .move(".out1", { to: "END" })
+        .delete(".out1")
+        .delete(1)
+        .move(null, { to: "END" }, { delay: 350})
+        .break()
+        .go();
+/*'Cause I always do
+Maybe I'm too
+Busy bein' yours
+To fall for somebody new
+Now, I've thought it through
+Crawlin' back to you
+You might also like
+So have you got the guts?
+Been wonderin' if your heart's still open
+And if so, I wanna know what time it shuts
+Simmer down an' pucker up, I'm sorry to interrupt
+It's just I'm constantly on the cusp of tryin' to kiss you
+But I don't know if you feel the same as I do
+But we could be together if you wanted to
+(Do I wanna know?) If this feelin' flows both ways?
+(Sad to see you go) Was sorta hopin' that you'd stay
+(Baby, we both know) That the nights were mainly made
+For sayin' things that you can't say tomorrow day
+Crawlin' back to you (Crawlin' back to you)
+Ever thought of callin' when
+You've had a few? (Had a few)
+'Cause I always do ('Cause I always do)
+Maybe I'm too (Maybe I'm too busy)
+Busy bein' yours (Bein' yours)
+To fall for somebody new
+Now, I've thought it through
+Crawlin' back to you
+(Do I wanna know?) If this feelin' flows both ways?
+(Sad to see you go) Was sorta hopin' that you'd stay
+(Baby, we both know) That the nights were mainly made
+For sayin' things that you can't say tomorrow day
+(Do I wanna know?) Too busy bein' yours to fall
+(Sad to see you go) Ever thought of callin', darlin'?
+(Do I wanna know?) Do you wan
+*/
+       /* document.getElementsByClassName("home").style.visbility = "visible";
+
+
+
+        //document.getElementById("click").disabled = false;
+        //var button = document.getElementById("click");
+        //button.addEventListener("click", instance.destroy());
+        //button.addEventListener("click", function(){ document.getElementById("demo").innerHTML = "";});
+        //button.addEventListener("click", instance.freeze());
+        /*
+
+
+
+
+
+        .move(null, { to: "END" }, { delay: 350})
+        .type(" over <span class='out'> again.<br> Hey, </span>look")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .break()
+        .move(null, { to: "END" }, { delay: 350})
+        .type(" <span class='out'>, grandpa, </span> I'm not<span class='out'> a bulldozer. I'm a racecar.<br> Oh-ho-ho-ho! Is that</span> right?")
+        .move(".out", { to: "END" })
+        .delete(20)
+        .move(-1)
+        .delete(28)
+        .move(-8)
+        .delete(13)
+        .break()
+        .move(null, { to: "END" }, { delay: 350})
+        .delete(1)
+        .type("<br><span class='out'> Then why don't we just have a little</span>")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(null, { to: "END" }, { delay: 350})
+        .type(" li<span class='out'>ttle race? </span>M")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(-1)
+        .delete(1)
+        .move(null, { to: "END" })
+        .type("<span class='out'>e and you. <br> What?<br> Me and you. That</span> a joke?")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .delete(2)
+        .move(null, { to: "END" }, { delay: 350})
+        .delete(1)
+        .type("<br>If <span class='out'> you win, you go and </span> I ")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(null, { to: "END" }, { delay: 350})
+        .type("<span class='out'> fix the road. If I win, you do the road my way. <br>Doc, what're you doin'? <br>I don't mean to be rude here, but you probably go zero to sixty in, like, what? Three-point-five years? <br>Then I re</span>c")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .delete(2)
+        .move(null, { to: "END" }, { delay: 350})
+        .type("<span class='out'>kon y</span>ou")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(null, { to: "END" }, { delay: 350})
+        .type("<span class='out'> ain't got nothin' to worry about. <br>You know what, o</span>ld-timer?")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .delete(1)
+        .move(null, { to: "END" }, { delay: 350})
+        .delete(7)
+        .type("<span class='out'> That's a wonderful idea. Let's race.</span>")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(null, { to: "END" }, { delay: 350})
+        .type("<br><span class='out'> Gentlemen, this will be a one-lap race. You will</span> drive <span class='out'> to Willy's Butte</span>, go around <span class='out'> Willy's Butte </span>and come back.")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(-11)
+        .delete(17)
+        .move(5)
+        .move(-12)
+        .delete(49)
+        .move(null, { to: "END" }, { delay: 350})
+        .break()
+        .type("There will be no bumpin', no cheatin', no spittin', no bitin', no road rage, no maimin', no oil slickin', no pushin', no shovin', no backstabbin', no road-hoggin', and no lollygaggin'.")
+        .delete(13, { delay: 350})
+        .move(-3)
+        .delete(18)
+        .move(-3, { delay: 350})
+        .delete(14)
+        .move(-3, { delay: 150})
+        .delete(9, { delay: 200})
+        .move(-3)
+        .delete(9)
+        .move(-3, { delay: 400})
+        .delete(14, { delay: 350})
+        .move(-3)
+        .delete(9)
+        .move(-3, { delay: 160})
+        .delete(11)
+        .move(-3, { delay: 480})
+        .delete(8, { delay: 245})
+        .move(-3)
+        .delete(10, { delay: 350})
+        .move(-3)
+        .delete(10, { delay: 300})
+        .move(-3, { delay: 350})
+        .delete(9)
+        .move(-3, { delay: 200})
+        .delete(14, { delay: 350})
+        .move(-3)
+        .move(null, { to: "END" }, { delay: 350})
+        .break()
+        .type("Speed. I am speed")*/
+        
+}
+
+
+</script>
+<div id="poem">
+    <!--<span class='out'> I </span> finish, 
+    I <span class='out'> could </span> go. That was the deal. 
+    The deal was you<span class='out'> fix </span>the road,
+    not make</span><span class='out'> it </span>worse. 
+    Now, scrape <span class='out'>i</span>t off! 
+    <span class='out'> Start over </span> again.
+    Hey, <span class='out'> look</span>, grandpa, 
+    <span class='out'> I'm not</span> a bulldozer. I'm a racecar.
+    Oh-ho-ho-ho!
+    Is that<span class='out'> right?</span> Then why don't we just have a l<span class='out'>i</span>ttle race? <span class='out'>M</span>e and you.
+    What?
+    Me and you. That<span class='out'> a joke</span>?
+    <span class='out'>If </span> you win, you go and <span class='out'> I </span> fix the road. If I win, you do the road my way.
+    Doc, what're you doin'?
+    I don't mean to be rude here, but you probably go zero to sixty in, like, what? Three-point-five years?
+    Then I re<span class='out'>c</span>kon y<span class='out'>ou</span> ain't got nothin' to worry about.
+    You know what, o<span class='out'>ld</span>-timer?
+    That's a wonderful idea. Let's race.
+    [Sheriff] Gentlemen, this will be a one-lap race.
+    You will drive to Willy's Butte,
+    go around Willy's Butte and come back.
+    There will be no bumpin',
+    no cheatin', no spittin',
+    no bitin', no road rage, no maimin',
+    no oil slickin', no pushin', no shovin',
+    no backstabbin', no road-hoggin',
+    and no lollygaggin'.
+    Speed. I'm speed. Float like a Cadillac, sting like a Beemer. [Luigi laughs] My friend Guido, he dream to
+    give a real racecar a pit stop. - Peet stop! --->
+    
+    </div>
+    
+<!---
+<script>
+    var i = 0;
+    var x = 0;
+    
+    var spans = document.getElementByClassName('out');
+    var speed = 100;
+    var main = document.getElementById("demo");
+    var last;
+    var text = "";
+    for (let b = 0; b < spans.length; b++) {
+        text += spans[b].innerText;
+    } 
+
+function typeWriter() {
+  if (i < txt.length) {
+    
+    if((txt.charAt(i) == text.charAt(x)) && (txt.charAt(i) != " ")){
+        var sp = document.createElement("span");
+        var textNode = document.createTextNode(txt.charAt(i));
+        sp.appendChild(textNode);
+        document.getElementById("demo").appendChild(sp);
+        x++;
+    }else{
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+    }
+    i++;
+    
+    setTimeout(typeWriter, speed);
+  }
+}
+        //document.getElementById("demo").appendChild(document.createElement('span').appendChild(document.createTextNode(txt.charAt(i))));
+    //document.getElementById("demo").appendChild(document.createElement('span').appendChild(document.createTextNode(txt.charAt(i))));
+
+</script>-->
+</html>
